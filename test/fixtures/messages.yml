@@ -1,9 +1,7 @@
-# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
 one:
-  subject: MyString
-  body: MyText
+  subject: メッセージ1
+  body: 本文1 本文1 本文1 本文1 本文1
 
 two:
-  subject: MyString
-  body: MyText
+  subject: メッセージ2
+  body: 本文2 本文2 本文2 本文2 本文2 本文2 本文2 本文2 本文2 本文2
