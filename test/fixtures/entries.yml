@@ -1,17 +1,23 @@
-one:
+<% 1.upto(20) do |i| %>
+creator_1_entry_message<%= i %>:
   account_id: 1
-  creator: one
-  entryable: one (Message)
-  created_at: "2022-11-01 09:02:25"
+  creator: creator_1
+  entryable: creator_1_entry_message<%= i %> (Message)
+  created_at: <%= Time.new(2022, 11, 01, 13, 30, 0, "+00:00") + i.days %>
+<% end %>
 
-two:
+<% 1.upto(10) do |i| %>
+creator_2_entry_comment<%= i %>:
   account_id: 1
-  creator: one
-  entryable: one (Message)
-  created_at: "2022-11-03 12:00:30"
+  creator: creator_2
+  entryable: creator_2_entry_comment<%= i %> (Comment)
+  created_at: <%= Time.new(2022, 11, 5, 18, 00, 0, "+00:00") + i.days %>
+<% end %>
 
-three:
+<% 1.upto(20) do |i| %>
+creator_3_entry_message<%= i %>:
   account_id: 1
-  creator: one
-  entryable: one (Comment)
-  created_at: "2022-11-11 19:20:54"
+  creator: creator_3
+  entryable: creator_3_entry_message<%= i %> (Message)
+  created_at: <%= Time.new(2022, 10, 01, 9, 00, 0, "+00:00") + i.days %>
+<% end %>

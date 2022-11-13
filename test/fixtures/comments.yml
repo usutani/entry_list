@@ -1,2 +1,4 @@
-one:
-  content: 長いコメント1 長いコメント1 長いコメント1 長いコメント1 長いコメント1
+<% 1.upto(10) do |i| %>
+creator_2_entry_comment<%= i %>:
+  content: コメント <%= i %> <%= "あいうえお" * i %>
+<% end %>

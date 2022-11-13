@@ -1,4 +1,4 @@
-one:
-  name: Yamada Tarou (Creator one)
-two:
-  name: Tanaka Hikaru (Creator two)
+<% 1.upto(3) do |i| %>
+creator_<%= i %>:
+  name: creator_<%= i %>
+<% end %>
