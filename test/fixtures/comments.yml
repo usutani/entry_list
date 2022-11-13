@@ -1,4 +1,4 @@
-<% 1.upto(10) do |i| %>
+<% 1.upto(20) do |i| %>
 creator_2_entry_comment<%= i %>:
-  content: コメント <%= i %> <%= "あいうえお" * i %>
+  content: コメント <%= i %> <%= "あいうえお" * 5 %>
 <% end %>

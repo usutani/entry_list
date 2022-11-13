@@ -1,4 +1,4 @@
-<% 1.upto(20) do |i| %>
+<% 1.upto(50) do |i| %>
 creator_1_entry_message<%= i %>:
   account_id: 1
   creator: creator_1
@@ -6,7 +6,7 @@ creator_1_entry_message<%= i %>:
   created_at: <%= Time.new(2022, 11, 01, 13, 30, 0, "+00:00") + i.days %>
 <% end %>
 
-<% 1.upto(10) do |i| %>
+<% 1.upto(20) do |i| %>
 creator_2_entry_comment<%= i %>:
   account_id: 1
   creator: creator_2
@@ -14,7 +14,7 @@ creator_2_entry_comment<%= i %>:
   created_at: <%= Time.new(2022, 11, 5, 18, 00, 0, "+00:00") + i.days %>
 <% end %>
 
-<% 1.upto(20) do |i| %>
+<% 1.upto(50) do |i| %>
 creator_3_entry_message<%= i %>:
   account_id: 1
   creator: creator_3
